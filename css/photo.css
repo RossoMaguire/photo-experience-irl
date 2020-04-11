@@ -1,0 +1,175 @@
+/* ///////////////////////// CHANGING THE WORDPRESS PAGE STYLES //////////////////////////////// */
+#primary .entry-header{
+	display:none!important;
+}
+#primary .entry-content {
+width: 100%!important;
+float:none!important; }
+
+.site-content {
+padding:0px!important;
+}
+
+
+/* //////////////////////////////////////////////////// */
+#survey {
+	position: fixed;
+    top: 2%;
+    right: 30%;
+    bottom: 0;
+    left: 30%;
+    z-index: 1050;
+	overflow-x:hidden;
+	overflow-y:hidden;
+	display:none;
+}
+
+#survey iframe {
+	height:100vh!important;
+}
+
+#theCode {
+	width:60%;
+	margin:0 auto;
+	border:1px solid black;
+	font-size:14px;
+}
+
+#intro {
+    line-height: 45px;
+    font-size: 20px;
+}
+
+#codeDiv h2 {
+font-size:30px;
+margin-top:40px;
+}
+
+
+#imageHolder {
+	background-image: url("http://test.rossmaguire.com/wp-content/uploads/Spinner.gif");
+	background-repeat: no-repeat;
+	background-position: top;
+	margin-bottom: 20px;
+	width:100%;
+	height:600px;
+    padding-top:40px;
+	text-align: center;
+    margin:0 auto;
+	display:none;
+}
+
+#yourPhoto {
+    display: none;
+    border: solid #fff;
+    border-width: 6px 6px 20px 6px;
+    box-shadow: 1px 1px 5px #333;
+    -webkit-box-shadow: 1px 1px 5px #333;
+    -moz-box-shadow: 1px 1px 5px #333;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+#save {
+	margin: 0 auto;
+	text-align:center;
+	color:white;
+	cursor:pointer;
+	width:50%;
+	padding:15px;
+	font-size:19px;
+	background-color:black;
+	display:none;
+	cursor:pointer;
+}
+
+#share {
+	margin: 0 auto;
+	text-align:center;
+	cursor:pointer;
+	width:50%;
+	padding:15px;
+	font-size:19px;
+	color: #fff;
+	background-color:#4C67A1;
+	display:none;
+	cursor:pointer;
+	
+}
+
+#buttonsHolder {
+	display:none;
+	width:100%;
+}
+
+#surveyHolder {
+	display:none;
+	width:100%;
+	font-size: 18px;
+    margin-top: 20px;
+}
+
+#feedback {
+	color: #03A9F4;
+    cursor: pointer;
+}
+
+#another {
+	display:none;
+	cursor:pointer;
+}
+
+#errorMsg {
+	display:none;
+	color:red;
+}
+
+#getImage {
+	margin: 0 auto;
+	text-align:center;
+	color:white;
+	cursor:pointer;
+	width:40%;
+	padding:20px;
+	background-color:black;
+	margin-bottom: 80px;
+}
+
+.container {
+	width:100%!important;
+}
+
+.modal-backdrop.fade {
+	opacity: 0.7;
+}
+
+@media only screen and (max-width: 768px) {
+
+#intro {	
+    font-size: 13px;
+    line-height: 32px;
+}
+
+#theCode {
+	width: 100%;
+}
+
+#getImage {
+	width: 100%;
+}
+
+#save, #share {
+	display:block!important;
+	width:100%;
+	margin-top: 15px;
+}
+
+#survey {
+	width: 100%;
+    right: 0;
+    left: 0;
+}
+
+}
+
+
+
