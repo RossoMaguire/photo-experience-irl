@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	  <link href="css/photo.css" rel="stylesheet">
+
+	  <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+</head>
+
+<body id="page-top" class="index">
+<!-- BEGIN HTML CONTENT -->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+				<br/>
+				<br/>
+				<br/>
+				<div style="text-align:center;" id="codeDiv">
+				<label for="codeInput">Code</label>
+				<input id="theCode" style="color: black;" type="text" name="codeInput" placeholder="Enter your image code here"></input>
+				<br/>
+				<br/>
+				<div id="getImage">GET</div>
+				<p id="errorMsg"> Oops, we couldnt find that one</p>
+				</div>
+				</div>
+				<div class="col-md-12">
+				<div id="imageHolder">
+				<img id="yourPhoto" style="height:100%" src=""></img>
+				<br/>
+				<br/>
+				</div>
+				<div id="buttonsHolder">
+				<a href="#" id="save">
+				<i class="fa fa-download" aria-hidden="true"></i>&nbsp;&nbsp;Save Photo
+				</a>
+				<div id="share">
+				<i class="fa fa-facebook fa-2"></i>&nbsp;&nbsp;Share
+				</div>
+				</div>
+				</div>
+				<div class="col-md-12">
+				<p id="another"><i class="fa fa-arrow-left" aria-hidden="true"></i>&nbsp;&nbsp;Find another image</p>
+				</div>
+			</div>
+		</div>
+<!-- END HTML CONTENT -->
+	<script src="js/photo.js"></script>
+</body>
+
+</html>
