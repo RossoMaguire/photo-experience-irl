@@ -7,6 +7,7 @@ This is a JavaScript app packaged as a WordPress plugin which was needed for Pho
 View live model: https://photoexperienceireland.ie/find-my-photo/ 
 
 View bare bones protoype: https://frosty-einstein-354f3d.netlify.app/ 
+
 (use image code: AU36952)
 
 ![ScreenShot](https://raw.github.com/RossoMaguire/photo-experience-irl/master/prototype/img/example-screen.png)
