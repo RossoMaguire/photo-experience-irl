@@ -8,6 +8,6 @@ View live model: https://photoexperienceireland.ie/find-my-photo/
 
 View bare bones protoype: https://frosty-einstein-354f3d.netlify.app/ (use image code: AU36952)
 
-![ScreenShot](https://raw.github.com/RossoMaguire/photo-experience-irl/master/prototype/img/prototype/img/example-screen.png)
+![ScreenShot](https://raw.github.com/RossoMaguire/photo-experience-irl/master/prototype/img/example-screen.png)
 
 
