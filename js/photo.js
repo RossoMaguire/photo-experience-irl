@@ -44,7 +44,7 @@
 		});
 		//retrieve the image based on code entered
 		function retrieveImage() {
-			code = $('#theCode').val(); //get the code entered 
+			code = $('#theCode').val().toUpperCase(); //get the code entered 
 			imageURL = 'http://test.rossmaguire.com/wp-content/uploads/' + code + '.jpg'; //build the image url - change to jpg or png
 			downloadURL = code + '.jpg';
 			//put the image url into the HTML
